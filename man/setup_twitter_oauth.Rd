@@ -17,7 +17,7 @@ setup_twitter_oauth(consumer_key, consumer_secret, access_token=NULL, access_sec
   \item{access_secret}{The access secret supplied by Twitter}
 }
 \details{
-  The \code{httr} package can cache authentication. See \code{\link{Token}} for
+  The \code{httr} package can cache authentication. See \code{\link[httr:Token]{Token}} for
   details
 
   If both \code{access_token} and \code{access_secret} are set (i.e. not \code{NULL}),
@@ -33,7 +33,7 @@ setup_twitter_oauth(consumer_key, consumer_secret, access_token=NULL, access_sec
 Jeff Gentry
 }
 \seealso{
-\code{\link{Token}}, \code{\link{GET}}, \code{\link{POST}}
+\code{\link[httr:Token]{Token}}, \code{\link[httr:GET]{GET}}, \code{\link[httr:POST]{POST}}
 }
 \examples{
  \dontrun{

@@ -23,7 +23,7 @@ use_oauth_token(twitter_token)
 Anand Patil
 }
 \seealso{
-\code{\link{Token}}
+\code{\link[httr:Token]{Token}}
 }
 \examples{
  \dontrun{

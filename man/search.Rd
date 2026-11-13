@@ -36,7 +36,7 @@ Rtweets(n=25, lang=NULL, since=NULL, ...)
   \item{retryOnRateLimit}{If non-zero the search command will block retry up to
     X times if the rate limit is experienced. This might lead to a much longer run
     time but the task will eventually complete if the retry count is high enough}
-  \item{...}{Optional arguments to be passed to \code{\link{GET}}}
+  \item{...}{Optional arguments to be passed to \code{\link[httr:GET]{GET}}}
 }
 \details{
   These commands will return any authorized tweets which match the

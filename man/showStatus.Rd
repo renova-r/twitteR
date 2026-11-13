@@ -14,7 +14,7 @@ lookup_statuses(ids, ...)
 \arguments{
   \item{id}{ID of a specific tweet, should be a String, but numbers are accepted}
   \item{ids}{A vector of IDs to lookup, should be Strings but numbers are accepted}
-  \item{\dots}{Optional arguments to be passed to \code{\link{GET}} (or \code{\link{POST}}, see Details)}
+  \item{\dots}{Optional arguments to be passed to \code{\link[httr:GET]{GET}} (or \code{\link[httr:POST]{POST}}, see Details)}
 }
 \value{
   For showStatus, an object of class \code{\link{status}}

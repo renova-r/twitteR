@@ -30,7 +30,7 @@ deleteStatus(status, ...)
         class \code{\link{status}} or an ID value}
   \item{mediaPath}{If not \code{NULL}, file path to a supported media format (PNG, JPG and GIF) to be included in the status update}
   \item{bypassCharLimit}{If \code{TRUE} will not enforce the incoming tweet is less than 140 characters. This can be useful when dealing with autoshortened links}
-  \item{...}{Optional arguments to be passed to \code{\link{GET}}}
+  \item{...}{Optional arguments to be passed to \code{\link[httr:GET]{GET}}}
 }
 \details{
   These messages will only operate properly if the user is authenticated
